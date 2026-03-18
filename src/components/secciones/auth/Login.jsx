@@ -17,7 +17,7 @@ const Login = () => {
     messageForAdmin: "",
   });
 
-  const API_URL = "http://localhost:5000/api/users";
+  const API_URL = "mongodb+srv://Alma:123@cluster0.pta1njr.mongodb.net/zonegym?retryWrites=true&w=majority&appName=Cluster0";
 
   useEffect(() => {
     const mode = searchParams.get("mode");
